@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 // Start Admin RegisterLoginCheckController Routing
 
 
-//Admin Login and signup
+//Admin Login and signup 
 Route::get('/admin/login',[
     'uses' =>'adminLoginController@a_login',
     'as' =>'a_login'
